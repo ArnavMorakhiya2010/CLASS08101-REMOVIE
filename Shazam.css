@@ -1,0 +1,316 @@
+
+#main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color: black;
+    
+    color: white;
+    padding: 20px;
+     background-image: url(/image/rm218-bb-07.jpg);
+     
+    background-size: cover;
+
+ z-index: 100;
+
+      
+    background-repeat: no-repeat;
+    
+    
+    background-position:left;
+    transition: box-shadow 0.3s ease-in-out;
+    /* add any other desired styles */
+  }
+
+  body {
+    background-image: url("/image/Screenshot\ 2023-05-17\ 114325.png");
+   width: 100%;
+    backdrop-filter: blur(20px);
+     background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+   
+  }
+
+  #main-header:hover{
+   box-shadow: 0 0 80px rgba(0, 234, 255, 0.5);
+  }
+
+ @font-face {
+    font-family: 'MainFont';
+    src: url(/AbrilFatface-Regular.ttf);
+ }
+ h1{
+    font-family:'MainFont';
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 15px;
+ }
+
+ #Shazam {
+    position: relative;
+    top: 190px;
+    width: 99%;
+    border-radius: 5%;
+    
+      transition: box-shadow 0.3s ease-in-out;
+   
+    }
+    
+    #Shazam:hover {
+      box-shadow: 0 0 80px rgba(255, 0, 106, 0.5);
+   
+      
+    }
+  
+  
+
+  h2{
+   font-family:'MainFont';
+   text-align: center;
+   font-size: 200%;
+   letter-spacing: 15px;
+   top: 0px;
+   color: black;
+   margin-top: 20%;
+   margin-right: 67%;
+
+   
+
+  }
+  .rectangle {
+  
+   width: 250px;
+   height: 500px;
+   background-color: white;
+   margin-left: 80px;
+   margin-top: -630px;
+   border-radius: 10%;
+   transition: box-shadow 0.3s ease-in-out;
+ }
+
+ .rectangle:hover{
+   box-shadow: 0 0 80px rgba(0, 234, 255, 0.5);
+
+ }
+
+ .container {
+  font-family: 'Times New Roman', Times, serif;
+   width: 250px;
+   height: 500px;
+   overflow: hidden;
+ }
+ 
+ h5 {
+   
+  font-size: 15px;
+   line-height: 1.2;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: normal;
+   margin-left: 120px;
+ 
+
+ }
+
+
+ .rectangle2 {
+  
+   width: 250px;
+   height: 500px;
+   background-color: white;
+   margin-left: 390px;
+   margin-top: -595px;
+   border-radius: 10%;  
+ }
+
+ h2{
+   font-family:'MainFont';
+   text-align: center;
+   font-size: 200%;
+   letter-spacing: 15px;
+   top: 0px;
+   color: black;
+   margin-top: 20%;
+   margin-right: 67%;
+
+ }
+
+ #Review{
+  color: black;
+  top: 0px;
+  margin-top: -38%;
+  margin-right: 17%;
+ }
+
+ .container2{
+  font-family: 'Times New Roman', Times, serif;
+   width: 230px;
+   height: 550px;
+   overflow: hidden;
+   margin-left: 27%;
+
+ }
+ header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger-icon span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  background-color: #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-icon span:first-child {
+  transform-origin: top left;
+}
+
+.hamburger-icon span:last-child {
+  transform-origin: bottom left;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  display: none;
+  z-index: 99;
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  padding: 10px 20px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Show the navigation menu when the hamburger icon is clicked */
+.hamburger-menu:hover .nav-menu {
+  display: block;
+}
+
+
+
+.text{
+margin-top: -40px;
+  text-align: center;
+}
+#Marvel {
+  width: 27%;
+  position: fixed;
+  top: 1020px;
+  margin-left: 3%;
+  border-radius: 10%;
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+#Marvel:hover {
+  box-shadow: 0 0 150px rgba(255, 0, 106, 0.5);
+}
+
+#War {
+  width: 27%;
+  position: relative;
+  top: -70px;
+  margin-left: 3%;
+  border-radius: 10%;
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+#War:hover {
+  box-shadow: 0 0 150px rgba(255, 0, 106, 0.5);
+
+
+}
+
+#Spider {
+  width: 27%;
+  position: relative;
+  top: -70px;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10%;
+
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+#Spider:hover {
+  box-shadow: 0 0 150px rgba(255, 0, 106, 0.5);
+
+}
+
+h2{
+  font-family:'MainFont';
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 15px;
+  top: 0px;
+  color: black;
+  margin-top: 20%;
+  margin-right: 67%;
+
+  
+
+ }
+ .rectangle1 {
+ 
+  width: 250px;
+  height: 500px;
+  background-color: white;
+  margin-left: 860px;
+  margin-top: -600px;
+  border-radius: 10%;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.rectangle:hover{
+  box-shadow: 0 0 80px rgba(0, 234, 255, 0.5);
+
+}
+
+
+
+
+
+  

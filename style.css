@@ -1,0 +1,256 @@
+@import url('');
+
+#main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+
+  color: white;
+  padding: 20px;
+  background-image: url(/image/rm218-bb-07.jpg);
+  background-size: cover;
+  flood-opacity: 50%;
+  z-index: 100;
+
+
+  background-repeat: no-repeat;
+
+
+  background-position: left;
+  /* add any other desired styles */
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+#main-header:hover {
+  box-shadow: 0 0 80px rgba(0, 234, 255, 0.5);
+}
+
+body {
+  background-image: url(/image/pexels-codioful-\(formerly-gradienta\)-6985132.jpg);
+
+  background-repeat: no-repeat;
+
+
+  background-position: center;
+}
+
+@font-face {
+  font-family: 'MainFont';
+  src: url(/AbrilFatface-Regular.ttf);
+}
+
+h1 {
+  font-family: 'MainFont';
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 15px;
+}
+
+#Guardian {
+  position: relative;
+  top: 190px;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+#Guardian:hover {
+  box-shadow: 0 0 150px rgba(255, 0, 106, 0.5);
+
+
+}
+
+#others {
+  font-family: 'MainFont';
+  letter-spacing: 13px;
+  position: relative;
+  top: 180px;
+  color: black;
+  text-align: center;
+  background-color: white;
+  width: auto;
+  font-size: 130%;
+}
+
+
+#Shazam {
+  width: 20%;
+  position: relative;
+  top: 220px;
+  margin-left: 3%;
+  border-radius: 10%;
+  transition: box-shadow 0.2s ease-in-out;
+
+
+}
+
+#Shazam:hover {
+  box-shadow: 0 0 150px rgba(255, 0, 106, 0.5);
+}
+
+#Marvel {
+  width: 20%;
+  position: relative;
+  top: 220px;
+  margin-left: 3%;
+  border-radius: 10%;
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+#Marvel:hover {
+  box-shadow: 0 0 150px rgba(255, 0, 106, 0.5);
+}
+
+#War {
+  width: 20%;
+  position: relative;
+  top: 220px;
+  margin-left: 3%;
+  border-radius: 10%;
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+#War:hover {
+  box-shadow: 0 0 150px rgba(255, 0, 106, 0.5);
+
+
+}
+
+#Spider {
+  width: 20%;
+  position: relative;
+  top: 220px;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10%;
+
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+#Spider:hover {
+  box-shadow: 0 0 150px rgba(255, 0, 106, 0.5);
+
+}
+
+h2 {
+  margin-top: 9%;
+
+}
+
+#now {
+  font-family: 'MainFont';
+  letter-spacing: 15px;
+  text-align: center;
+  font-size: 68px;
+  color: white;
+
+}
+
+
+
+.the {
+  position: relative;
+  overflow: hidden;
+  left:2%;
+width: 400px;
+top: 250px;
+border-radius: 20px;
+
+ 
+}
+
+.ant{
+  position: relative;
+  overflow: hidden;
+  left:4%;
+width: 400px;
+top: 250px;
+border-radius: 20px;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger-icon span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  background-color: #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-icon span:first-child {
+  transform-origin: top left;
+}
+
+.hamburger-icon span:last-child {
+  transform-origin: bottom left;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  display: none;
+  z-index: 99;
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  padding: 10px 20px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Show the navigation menu when the hamburger icon is clicked */
+.hamburger-menu:hover .nav-menu {
+  display: block;
+}
+
+
+
+.text{
+margin-top: -40px;
+  text-align: center;
+}
+
+
